@@ -12,7 +12,8 @@ def question(q,o1,o2,o3,o4):
                         recursion(q,o1,o2,o3,o4);
 def recursion(q,o1,o2,o3,o4):
             print("You have chosen wrong option😥😥....Please kindly choose a 1,2,3,4 as option😊😊");
-            question(q,o1,o2,o3,o4);                 
+            question(q,o1,o2,o3,o4);  
+# To check the answer 
 def correct(ans,expected):
             global score,user;
             ans=user;
@@ -21,7 +22,7 @@ def correct(ans,expected):
                 score=score+1;
             else:
                 print(f"Sorry!!😥😥Next time.The correct answer is {answer}");
-                
+# To display the result....
 def resultDisplay(sc):
             global score;
             sc=score;
