@@ -82,4 +82,5 @@ def main():
             questionCount=questionCount+1;
             print("Quiz is now over........");
             resultDisplay(score);
+#Calling the main function 
 main();    
